@@ -1,0 +1,38 @@
+17:19:39.422 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+17:19:39.466 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+17:19:39.467 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+17:19:39.469 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+17:19:39.494 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+17:19:39.498 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+17:19:39.498 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+17:19:39.521 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+17:19:39.522 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+17:19:39.523 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+17:19:39.549 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+17:19:39.549 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+17:19:39.550 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+17:19:39.600 [main] INFO  testCases.TC003_LoginDDT - ******** TC03 is STARTED **************
+17:19:42.128 [main] INFO  testCases.TC003_LoginDDT - ******** TC03 is COMPLETED **************
+17:19:42.128 [main] INFO  testCases.TC003_LoginDDT - ******** TC03 is STARTED **************
+17:19:47.818 [main] INFO  testCases.TC003_LoginDDT - ******** TC03 is COMPLETED **************
+17:19:47.822 [main] INFO  testCases.TC003_LoginDDT - ******** TC03 is STARTED **************
+18:15:37.433 [main] INFO  testCases.TC001_AccountRegistration - Test started .................
+18:15:38.575 [main] INFO  testCases.TC001_AccountRegistration - Starting the registration page 
+18:15:40.056 [main] INFO  testCases.TC001_AccountRegistration - ********* TEST EXECUTION COMPLETED *******************
+18:15:45.148 [main] INFO  testCases.TC002_LoginTest - ******** TC02 is STARTED **************
+18:16:22.373 [main] INFO  testCases.TC001_AccountRegistration - Test started .................
+18:16:23.497 [main] INFO  testCases.TC001_AccountRegistration - Starting the registration page 
+18:16:25.249 [main] INFO  testCases.TC001_AccountRegistration - ********* TEST EXECUTION COMPLETED *******************
+19:21:05.389 [main] INFO  testCases.TC001_AccountRegistration - Test started .................
+19:21:06.537 [main] INFO  testCases.TC001_AccountRegistration - Starting the registration page 
+19:21:08.352 [main] INFO  testCases.TC001_AccountRegistration - ********* TEST EXECUTION COMPLETED *******************
+19:23:47.357 [main] INFO  testCases.TC001_AccountRegistration - Test started .................
+19:23:48.710 [main] INFO  testCases.TC001_AccountRegistration - Starting the registration page 
+19:23:50.814 [main] INFO  testCases.TC001_AccountRegistration - ********* TEST EXECUTION COMPLETED *******************
+19:25:14.143 [main] INFO  testCases.TC001_AccountRegistration - Test started .................
+19:25:15.496 [main] INFO  testCases.TC001_AccountRegistration - Starting the registration page 
+19:25:17.282 [main] INFO  testCases.TC001_AccountRegistration - ********* TEST EXECUTION COMPLETED *******************
+19:25:22.936 [main] INFO  testCases.TC002_LoginTest - ******** TC02 is STARTED **************
+10:12:10.796 [main] INFO  testCases.TC001_AccountRegistration - Test started .................
+10:12:12.055 [main] INFO  testCases.TC001_AccountRegistration - Starting the registration page 
+10:12:13.539 [main] INFO  testCases.TC001_AccountRegistration - ********* TEST EXECUTION COMPLETED *******************
