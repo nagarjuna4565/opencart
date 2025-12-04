@@ -2,8 +2,8 @@ package pageObjects;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
 
 public class RegistrationAccountPage extends BasePage{
 
@@ -37,6 +37,16 @@ public class RegistrationAccountPage extends BasePage{
 	
 	@FindBy(xpath="//h1[normalize-space()='Your Account Has Been Created!']")
 	WebElement txtaccountcreatedmsg;
+	
+	@FindBy(xpath="//div[contains(text(),'Password confirmation does not match password!')]")
+	WebElement txtcnfmPasswordError;
+	
+	@FindBy(xpath="//div[@class='alert alert-danger alert-dismissible']")
+	WebElement txtalreadyregisteredemailerror;
+	
+	//errors
+	@FindBy(xpath="//div[contains(text(),'E-Mail Address does not appear to be valid!')]")
+	WebElement InvalidEmailError;
 	
 	public void setFirstname(String fname) {
 		txtfirstname.sendKeys(fname);
@@ -80,8 +90,40 @@ public class RegistrationAccountPage extends BasePage{
 		}
 	}
 	
+	public boolean validateCnfmpwError(String cnfmerror) {
+		return ((txtcnfmPasswordError).getText()).equals(cnfmerror);
+	}
 	
+	public boolean validatealreadyregisteredemailerror(String regemailerror) {
+		return ((txtalreadyregisteredemailerror).getText()).equals(regemailerror);
+	}
 	
+	public boolean validateInvalidEmailError(String error) {
+		return (InvalidEmailError.getText()).equals(error);
+	}
+	
+	//Using actions class
+	
+	public void registartionUsingActions(String fname,String lname,String email,String telephone,String password) {
+		Actions a = new Actions(driver);
+		
+		a.moveToElement(txtemail)
+		 .sendKeys(fname)
+		 .moveToElement(txtlastname)
+		 .sendKeys(lname)
+		 .moveToElement(txtemail)
+		 .sendKeys(email)
+		 .moveToElement(txttelephone)
+		 .sendKeys(telephone)
+		 .moveToElement(txtpassword)
+		 .sendKeys(password)
+		 .moveToElement(txtconfirmpassword)
+		 .sendKeys(password)
+		 
+		
+		
+		
+	}
 	
 	
 	

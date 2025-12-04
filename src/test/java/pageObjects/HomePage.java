@@ -20,6 +20,8 @@ public class HomePage extends BasePage {
 	@FindBy(xpath="//a[normalize-space()='Login']")
 	WebElement btnlogin;
 	
+	
+	
 	public void clickMyaccount() {
 		MyAccount.click();
 		 try { Thread.sleep(500); } catch (Exception e) {}

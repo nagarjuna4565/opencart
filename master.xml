@@ -11,7 +11,7 @@
   <parameter name="browser" value="chrome"></parameter>
     <classes>
     
-      <class name="testCases.TC001_AccountRegistration"/>
+      <class name="testCases.TC009_ValidateErrorinRegistartionPageWithImproperEmail"/>
       
     </classes>
   </test> <!-- Test -->

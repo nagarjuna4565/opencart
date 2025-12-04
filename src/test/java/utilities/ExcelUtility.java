@@ -61,6 +61,7 @@ public class ExcelUtility {
             return formatter.formatCellValue(cell);
         }
     }
+    
 
     // -----------------------------
     // 4. Set Cell Data
@@ -138,5 +139,60 @@ public class ExcelUtility {
             workbook.write(fo);
         }
         workbook.close();
+    }
+    
+    // -----------------------------------------------------
+    // 7. Get all values from a specific column starting from a given row
+    // -----------------------------------------------------
+    public String[] getColumnValuesStartingFromRow(String sheetName, int colNum, int startRow) throws IOException {
+
+        try (FileInputStream fi = new FileInputStream(path);
+             XSSFWorkbook workbook = new XSSFWorkbook(fi)) {
+
+            XSSFSheet sheet = workbook.getSheet(sheetName);
+            int lastRow = sheet.getLastRowNum();
+            DataFormatter formatter = new DataFormatter();
+
+            int size = lastRow - startRow + 1;
+            String[] values = new String[size];
+
+            int index = 0;
+            for (int r = startRow; r <= lastRow; r++) {
+                Row row = sheet.getRow(r);
+                if (row == null) {
+                    values[index++] = "";
+                    continue;
+                }
+                Cell cell = row.getCell(colNum);
+                values[index++] = (cell == null) ? "" : formatter.formatCellValue(cell);
+            }
+            return values;
+        }
+    }
+
+    // -----------------------------------------------------
+    // 8. Get all values from a specific row
+    // -----------------------------------------------------
+    public String[] getRowValues(String sheetName, int rowNum) throws IOException {
+
+        try (FileInputStream fi = new FileInputStream(path);
+             XSSFWorkbook workbook = new XSSFWorkbook(fi)) {
+
+            XSSFSheet sheet = workbook.getSheet(sheetName);
+            Row row = sheet.getRow(rowNum);
+
+            if (row == null) return new String[0];
+
+            int cols = row.getLastCellNum();
+            DataFormatter formatter = new DataFormatter();
+
+            String[] rowData = new String[cols];
+
+            for (int i = 0; i < cols; i++) {
+                Cell cell = row.getCell(i);
+                rowData[i] = (cell == null) ? "" : formatter.formatCellValue(cell);
+            }
+            return rowData;
+        }
     }
 }

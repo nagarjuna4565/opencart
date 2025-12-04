@@ -16,6 +16,9 @@ public class MyAccountPage extends BasePage {
 	@FindBy(xpath="//a[@class='list-group-item'][normalize-space()='Logout']")
 	WebElement btnLogout;
 	
+	@FindBy(xpath="//a[@class='list-group-item'][normalize-space()='Newsletter']")
+	WebElement lnknewsletter;
+	
 	public boolean myaccountText() {
 		
 		try {
@@ -29,5 +32,12 @@ public class MyAccountPage extends BasePage {
 	public void clickLogout() {
 		btnLogout.click();
 	}
+	
+	public void susunsusnewsletter() {
+		lnknewsletter.click();
+	}
+	
+	
+	
 
 }
