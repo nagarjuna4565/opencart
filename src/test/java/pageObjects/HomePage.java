@@ -1,5 +1,6 @@
 package pageObjects;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -20,6 +21,11 @@ public class HomePage extends BasePage {
 	@FindBy(xpath="//a[normalize-space()='Login']")
 	WebElement btnlogin;
 	
+	@FindBy(xpath="//ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Logout']")
+	WebElement btnlogout;
+	
+	
+	
 	
 	
 	public void clickMyaccount() {
@@ -33,6 +39,16 @@ public class HomePage extends BasePage {
 	
 	public void Login() {
 		btnlogin.click();
+	}
+	
+	public void Logoutfromheader() {
+		btnlogout.click();
+	}
+	
+	//Featured Products
+	
+	public void clickProductCompare(String prod) {
+		driver.findElement(By.xpath("//div[@class='row']//a[normalize-space()='"+prod+"']/ancestor::div[@class='product-thumb transition']//button[3]")).click();
 	}
 
 

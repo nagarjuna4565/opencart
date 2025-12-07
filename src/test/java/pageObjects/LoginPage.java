@@ -22,6 +22,15 @@ public class LoginPage extends BasePage {
 	@FindBy(xpath="//a[normalize-space()='Continue']")
 	WebElement btnNewUserContinue;
 	
+	@FindBy(xpath="//div[@class='alert alert-danger alert-dismissible']")
+	WebElement txtHeaderInvalidcredswarning;
+	
+	@FindBy(xpath="//div[@class='form-group']//a[normalize-space()='Forgotten Password']")
+	WebElement lnkforgotpw;
+	
+	@FindBy(xpath="//div[@class='alert alert-success alert-dismissible']")
+	WebElement txtconfirmationlinktext;
+	
 	public void Enteremail(String email) {
 		txtemail.sendKeys(email);
 	}
@@ -36,6 +45,18 @@ public class LoginPage extends BasePage {
 	
 	public void newUserContinue() {
 		btnNewUserContinue.click();
+	}
+	
+	public boolean ValidateHeaderInvalidcredswarning(String txt) {
+		return (txtHeaderInvalidcredswarning.getText()).equals(txt);
+	}
+	
+	public void clickForgotPw() {
+		lnkforgotpw.click();
+	}
+	
+	public boolean ValidateConfirmationlinktext(String txt) {
+		return (txtconfirmationlinktext.getText()).equals(txt);
 	}
 	
 	

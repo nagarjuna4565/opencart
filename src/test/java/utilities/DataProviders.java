@@ -53,6 +53,28 @@ public class DataProviders {
 
 	    return emails;  //return 2d array
 	}
+	
+	@DataProvider(name = "Invalidpws")
+	public String[][] Invalidpws() throws IOException {
+
+	    String path = ".\\testData\\Opencart_InvalidPasswords.xlsx";
+
+	    ExcelUtility xlutil = new ExcelUtility(path);
+
+	    int totalRows = xlutil.getRowCount("Sheet1");     // includes header
+	    int totalCols = xlutil.getColumnCount("Sheet1");  // number of columns
+
+	    // Create 2D array for TestNG (excluding header row)
+	    String pws[][] = new String[totalRows - 1][totalCols];
+
+	    for (int i = 1; i < totalRows; i++) {  // start at 1 to skip header
+	        for (int j = 0; j < totalCols; j++) {
+	            pws[i - 1][j] = xlutil.getCellData("Sheet1", i, j);
+	        }
+	    }
+
+	    return pws;  //return 2d array
+	}
 
 	
 	

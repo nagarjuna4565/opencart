@@ -1,5 +1,6 @@
 package pageObjects;
 
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -47,6 +48,12 @@ public class RegistrationAccountPage extends BasePage{
 	//errors
 	@FindBy(xpath="//div[contains(text(),'E-Mail Address does not appear to be valid!')]")
 	WebElement InvalidEmailError;
+	
+	@FindBy(xpath="//div[contains(text(),'Password must be between 4 and 20 characters!')]")
+	WebElement pwlengtherror;
+	
+	@FindBy(xpath="//a[normalize-space()='login page']")
+	WebElement lnkLoginHyperLink;
 	
 	public void setFirstname(String fname) {
 		txtfirstname.sendKeys(fname);
@@ -107,22 +114,40 @@ public class RegistrationAccountPage extends BasePage{
 	public void registartionUsingActions(String fname,String lname,String email,String telephone,String password) {
 		Actions a = new Actions(driver);
 		
-		a.moveToElement(txtemail)
+		//System.out.println(txtlastname.getAttribute("placeholder"));
+		
+		a.moveToElement(txtfirstname)
+		 .click()
 		 .sendKeys(fname)
 		 .moveToElement(txtlastname)
+		 .click()
 		 .sendKeys(lname)
 		 .moveToElement(txtemail)
+		 .click()
 		 .sendKeys(email)
 		 .moveToElement(txttelephone)
+		 .click()
 		 .sendKeys(telephone)
 		 .moveToElement(txtpassword)
+		 .click()
 		 .sendKeys(password)
 		 .moveToElement(txtconfirmpassword)
+		 .click()
 		 .sendKeys(password)
+		 .moveToElement(chkpolicyagree)
+		 .click()
+		 .sendKeys(Keys.ENTER)
+		 .perform();
 		 
-		
-		
-		
+	
+	}
+	
+	public boolean validatepwlengtherror(String pw) {
+		return (pwlengtherror.getText()).equals(pw);
+	}
+	
+	public void LoginViaRegistrationpageusingLoginLink() {
+		lnkLoginHyperLink.click();
 	}
 	
 	

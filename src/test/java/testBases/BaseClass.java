@@ -15,8 +15,10 @@ import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
@@ -34,7 +36,6 @@ public class BaseClass {
 		FileReader f = new FileReader("./src//test/resources/config.properties");
 		p = new Properties();
 		p.load(f);
-		
 		
 		logger=LogManager.getLogger(this.getClass());
 		
