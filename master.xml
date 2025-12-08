@@ -8,7 +8,7 @@
   <parameter name="os" value="windows"></parameter>
   <parameter name="browser" value="chrome"></parameter>
     <classes>
-      <class name="testCases.TC029_prodComp_AddMultipleProdtoCompAndremove"/>
+      <class name="testCases.TC037_addCart_AddToCartDirectlyfromHomepage"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite --> 

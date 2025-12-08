@@ -24,8 +24,8 @@ public class HomePage extends BasePage {
 	@FindBy(xpath="//ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Logout']")
 	WebElement btnlogout;
 	
-	
-	
+	@FindBy(xpath="//a[@id='wishlist-total']//i[@class='fa fa-heart']")
+	WebElement btnWishList;
 	
 	
 	public void clickMyaccount() {
@@ -49,6 +49,15 @@ public class HomePage extends BasePage {
 	
 	public void clickProductCompare(String prod) {
 		driver.findElement(By.xpath("//div[@class='row']//a[normalize-space()='"+prod+"']/ancestor::div[@class='product-thumb transition']//button[3]")).click();
+	}
+	public void addToCart(String prod) {
+		driver.findElement(By.xpath("//div[@class='row']//a[normalize-space()='"+prod+"']/ancestor::div[@class='product-thumb transition']//button[1]")).click();
+	}
+	
+	//ClickWishList
+	
+	public void clickWishList() {
+		btnWishList.click();
 	}
 
 

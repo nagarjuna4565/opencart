@@ -19,8 +19,9 @@ public class SearchPage extends BasePage{
 		super(driver);
 		
 	}
-	
+	JavascriptExecutor js = (JavascriptExecutor) driver;
 
+	
 	@FindBy(xpath="//input[@placeholder='Search']")
 	WebElement txtSearchBox;
 
@@ -78,6 +79,21 @@ public class SearchPage extends BasePage{
 	WebElement btnCloseProductCompareSuccess;
 	
 	
+	//Header Common text and link for validation
+	@FindBy(xpath="//div[@class='alert alert-success alert-dismissible']")
+	WebElement txtSuccessHeaderMsg;
+	
+	@FindBy(xpath="//div[@class='alert alert-success alert-dismissible']/a[2]")
+	WebElement lnkItemLink;
+
+	//BLACKCART
+	
+	@FindBy(xpath="//button[@class='btn btn-inverse btn-block btn-lg dropdown-toggle']")
+	WebElement btnBlackAddToCart;
+	
+	@FindBy(xpath="//strong[normalize-space()='View Cart']")
+	WebElement btnViewCart;
+	
 	public void enterProductinSearchbox(String prod) {
 		txtSearchBox.sendKeys(prod);
 	}
@@ -94,13 +110,24 @@ public class SearchPage extends BasePage{
 		return al;
 	}
 	
+//CLICK ON PRODUCT
+	public void clickonproduct(String prod) {
+		for(WebElement w:listOfProdNames) {
+			if((w.getText()).equals(prod)) {
+				w.click();
+			}
+		}
+		
+	}
 	
+	//ADD TO CART 
 	
 	public void AddToCart(String Prodname) {
 		WebElement addtocart = driver.findElement(By.xpath("//div[@class='caption']//a[normalize-space()='"+Prodname+"']/ancestor::div[@class='product-thumb']//button[1]"));
 	    addtocart.click();	
 	}
 	
+	//ADD TO WISHLIST
 	public void AddWishList(String Prodname) {
 		WebElement addtowish = driver.findElement(By.xpath("//div[@class='caption']//a[normalize-space()='"+Prodname+"']/ancestor::div[@class='product-thumb']//button[2]"));
 		addtowish.click();	
@@ -194,8 +221,7 @@ public class SearchPage extends BasePage{
 	}
 	
 	public void clickProductCompare() {
-		JavascriptExecutor js = (JavascriptExecutor) driver;
-
+		
 	    new WebDriverWait(driver, Duration.ofSeconds(10))
 	        .until(ExpectedConditions.visibilityOf(lnkProductCompare));
 
@@ -234,5 +260,24 @@ public class SearchPage extends BasePage{
 		btnCloseProductCompareSuccess.click();
 	}
 	
+	public boolean validateHeaderText(String txt) {
+		String s = txtSuccessHeaderMsg.getText();
+		return s.contains(txt);
+	}
+	
+	public void clickOnItemLink() {
+		js.executeScript("arguments[0].click();",lnkItemLink);
+		
+	}
+	
+	//BLACK CART
+	
+	public void clickOnBlackCart() {
+		btnBlackAddToCart.click();
+		}
+
+	public void clickViewCart() {
+		btnViewCart.click();
+	}
 
 }

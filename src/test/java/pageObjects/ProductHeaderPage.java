@@ -31,5 +31,10 @@ public class ProductHeaderPage extends BasePage {
 	public void clickShowAllDesktops() {
 		lnkShowAllDesktops.click();
 	}
+	
+	public void clickOnMAC() {
+		lnkMac.click();
+	}
+	
 
 }

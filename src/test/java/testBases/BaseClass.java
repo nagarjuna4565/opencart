@@ -97,6 +97,27 @@ public class BaseClass {
 	        FileUtils.copyFile(source, finalDestination);
 
 	        return destination;
+	        
+	        //String to int
+	        
+	        
 	 }
+	 
+	
+		 public int convertStringToInt(String s) {
+			    if (s == null || s.isEmpty()) {
+			        throw new IllegalArgumentException("Price string is null or empty");
+			    }
+
+			    // Remove $ sign, commas, and spaces
+			    s = s.replace("$", "").replace(",", "").trim();
+
+			    // Remove decimal part if present
+			    s = s.split("\\.")[0];
+
+			    // Convert to int
+			    return Integer.parseInt(s);
+			}
+     
 
 }
