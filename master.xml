@@ -4,11 +4,11 @@
   <listeners>
     <listener class-name="utilities.ExtentReportManager"></listener>
   </listeners>
-  <test thread-count="5" name="Test">
+  <test thread-count="5" name="Test" parallel="true">
   <parameter name="os" value="windows"></parameter>
-  <parameter name="browser" value="chrome"></parameter>
+  <parameter name="browser" value="edge"></parameter>
     <classes>
-      <class name="testCases.TC037_addCart_AddToCartDirectlyfromHomepage"/>
+      <class name="testCases.TC038_addCart_AddProductToCartDDT"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite --> 

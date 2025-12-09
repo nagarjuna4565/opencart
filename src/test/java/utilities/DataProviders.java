@@ -76,6 +76,28 @@ public class DataProviders {
 	    return pws;  //return 2d array
 	}
 
+	@DataProvider(name = "ListOfProducts")
+	public String[][] ListOfProducts() throws IOException {
+
+	    String path = ".\\testData\\Opencart_ProductList.xlsx";
+
+	    ExcelUtility xlutil = new ExcelUtility(path);
+
+	    int totalRows = xlutil.getRowCount("Sheet1");     // includes header
+	    int totalCols = xlutil.getColumnCount("Sheet1");  // number of columns
+
+	    // Create 2D array for TestNG (excluding header row)
+	    String prods[][] = new String[totalRows - 1][totalCols];
+
+	    for (int i = 1; i < totalRows; i++) {  // start at 1 to skip header
+	        for (int j = 0; j < totalCols; j++) {
+	            prods[i - 1][j] = xlutil.getCellData("Sheet1", i, j);
+	        }
+	    }
+
+	    return prods;  //return 2d array
+	}
+
 	
 	
 	

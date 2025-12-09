@@ -1,21 +1,30 @@
-08:41:57.992 [main] INFO  testCases.TC035_addCart_AddToCartFromProductDisplay - ******** TC35 is FAILED **************
-08:44:55.808 [main] INFO  testCases.TC035_addCart_AddToCartFromProductDisplay - ******** TC35 is STARTED **************
-08:44:58.044 [main] INFO  testCases.TC035_addCart_AddToCartFromProductDisplay - ******** TC35 is PASSED **************
-08:45:17.329 [main] INFO  testCases.TC035_addCart_AddToCartFromProductDisplay - ******** TC35 is STARTED **************
-08:45:19.832 [main] INFO  testCases.TC035_addCart_AddToCartFromProductDisplay - ******** TC35 is PASSED **************
-08:56:19.486 [main] INFO  testCases.TC034_addCart_AddToCartFromHeader - ******** TC34 is STARTED **************
-08:56:35.535 [main] INFO  testCases.TC034_addCart_AddToCartFromHeader - ******** TC34 is FAILED **************
-08:58:18.666 [main] INFO  testCases.TC034_addCart_AddToCartFromHeader - ******** TC34 is STARTED **************
-08:58:18.801 [main] INFO  testCases.TC034_addCart_AddToCartFromHeader - ******** TC34 is STARTED **************
-08:58:20.805 [main] INFO  testCases.TC034_addCart_AddToCartFromHeader - ******** TC34 is PASSED **************
-08:58:20.824 [main] INFO  testCases.TC034_addCart_AddToCartFromHeader - ******** TC34 is PASSED **************
-12:54:34.212 [main] INFO  testCases.TC036_addCart_AddtoCartFromHeaders - ******** TC35 is STARTED **************
-12:54:36.489 [main] INFO  testCases.TC036_addCart_AddtoCartFromHeaders - ******** TC35 is PASSED **************
-12:59:07.497 [main] INFO  testCases.TC037_addCart_AddToCartDirectlyfromHomepage - ******** TC37 is STARTED **************
-12:59:11.645 [main] INFO  testCases.TC037_addCart_AddToCartDirectlyfromHomepage - ******** TC37 is FAILED **************
-13:00:21.570 [main] INFO  testCases.TC037_addCart_AddToCartDirectlyfromHomepage - ******** TC37 is STARTED **************
-13:00:25.663 [main] INFO  testCases.TC037_addCart_AddToCartDirectlyfromHomepage - ******** TC37 is FAILED **************
-13:01:12.967 [main] INFO  testCases.TC037_addCart_AddToCartDirectlyfromHomepage - ******** TC37 is STARTED **************
-13:01:17.061 [main] INFO  testCases.TC037_addCart_AddToCartDirectlyfromHomepage - ******** TC37 is FAILED **************
-13:01:49.393 [main] INFO  testCases.TC037_addCart_AddToCartDirectlyfromHomepage - ******** TC37 is STARTED **************
-13:01:50.519 [main] INFO  testCases.TC037_addCart_AddToCartDirectlyfromHomepage - ******** TC37 is PASSED **************
+14:36:45.833 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+14:36:45.943 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+14:36:45.943 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+14:36:46.044 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+14:36:46.044 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+14:36:46.105 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+14:36:46.105 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+14:36:46.167 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+14:36:46.167 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+14:36:46.246 [TestNG-test-Test-1] INFO  testCases.TC038_addCart_AddProductToCartDDT - ******** TC31 is STARTED **************
+14:39:17.983 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+14:39:18.016 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+14:39:19.306 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+14:39:19.309 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+14:39:19.367 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+14:39:19.367 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+14:39:19.447 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+14:39:19.451 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+14:39:19.497 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+14:39:19.501 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+14:39:19.550 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+14:39:19.550 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+14:39:19.616 [TestNG-test-Test-1] INFO  testCases.TC038_addCart_AddProductToCartDDT - ******** TC31 is STARTED **************
+14:39:21.569 [TestNG-test-Test-1] INFO  testCases.TC038_addCart_AddProductToCartDDT - ******** TC31 is PASSED **************
+14:39:21.599 [TestNG-test-Test-1] INFO  testCases.TC038_addCart_AddProductToCartDDT - ******** TC31 is STARTED **************
+14:39:24.005 [TestNG-test-Test-1] INFO  testCases.TC038_addCart_AddProductToCartDDT - ******** TC31 is PASSED **************
+14:39:24.019 [TestNG-test-Test-1] INFO  testCases.TC038_addCart_AddProductToCartDDT - ******** TC31 is STARTED **************
+14:39:26.067 [TestNG-test-Test-1] INFO  testCases.TC038_addCart_AddProductToCartDDT - ******** TC31 is PASSED **************
+14:39:26.077 [TestNG-test-Test-1] INFO  testCases.TC038_addCart_AddProductToCartDDT - ******** TC31 is STARTED **************
+14:39:28.351 [TestNG-test-Test-1] INFO  testCases.TC038_addCart_AddProductToCartDDT - ******** TC31 is PASSED **************
