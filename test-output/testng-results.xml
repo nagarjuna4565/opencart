@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-12-08T14:39:10 IST" name="Suite" finished-at="2025-12-08T14:39:28 IST" duration-ms="18345">
+  <suite started-at="2025-12-09T09:02:39 IST" name="Suite" finished-at="2025-12-09T09:03:04 IST" duration-ms="25118">
     <groups>
     </groups>
-    <test started-at="2025-12-08T14:39:10 IST" name="Test" finished-at="2025-12-08T14:39:28 IST" duration-ms="18345">
+    <test started-at="2025-12-09T09:02:39 IST" name="Test" finished-at="2025-12-09T09:03:04 IST" duration-ms="25118">
       <class name="testCases.TC038_addCart_AddProductToCartDDT">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC038_addCart_AddProductToCartDDT@1ce24091]" started-at="2025-12-08T14:39:10 IST" name="setup" finished-at="2025-12-08T14:39:17 IST" duration-ms="6812" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC038_addCart_AddProductToCartDDT@1ce24091]" started-at="2025-12-09T09:02:40 IST" name="setup" finished-at="2025-12-09T09:02:52 IST" duration-ms="12073" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,7 +23,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testAddProductToCartDDT(java.lang.String)[pri:0, instance:testCases.TC038_addCart_AddProductToCartDDT@1ce24091]" started-at="2025-12-08T14:39:19 IST" name="testAddProductToCartDDT" data-provider="ListOfProducts" finished-at="2025-12-08T14:39:21 IST" duration-ms="1970" status="PASS">
+        <test-method signature="testAddProductToCartDDT(java.lang.String)[pri:0, instance:testCases.TC038_addCart_AddProductToCartDDT@1ce24091]" started-at="2025-12-09T09:02:54 IST" name="testAddProductToCartDDT" data-provider="ListOfProducts" finished-at="2025-12-09T09:02:56 IST" duration-ms="2082" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -34,7 +34,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAddProductToCartDDT -->
-        <test-method signature="testAddProductToCartDDT(java.lang.String)[pri:0, instance:testCases.TC038_addCart_AddProductToCartDDT@1ce24091]" started-at="2025-12-08T14:39:21 IST" name="testAddProductToCartDDT" data-provider="ListOfProducts" finished-at="2025-12-08T14:39:24 IST" duration-ms="2408" status="PASS">
+        <test-method signature="testAddProductToCartDDT(java.lang.String)[pri:0, instance:testCases.TC038_addCart_AddProductToCartDDT@1ce24091]" started-at="2025-12-09T09:02:56 IST" name="testAddProductToCartDDT" data-provider="ListOfProducts" finished-at="2025-12-09T09:02:58 IST" duration-ms="2051" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -45,7 +45,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAddProductToCartDDT -->
-        <test-method signature="testAddProductToCartDDT(java.lang.String)[pri:0, instance:testCases.TC038_addCart_AddProductToCartDDT@1ce24091]" started-at="2025-12-08T14:39:24 IST" name="testAddProductToCartDDT" data-provider="ListOfProducts" finished-at="2025-12-08T14:39:26 IST" duration-ms="2057" status="PASS">
+        <test-method signature="testAddProductToCartDDT(java.lang.String)[pri:0, instance:testCases.TC038_addCart_AddProductToCartDDT@1ce24091]" started-at="2025-12-09T09:02:58 IST" name="testAddProductToCartDDT" data-provider="ListOfProducts" finished-at="2025-12-09T09:03:00 IST" duration-ms="1757" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -56,7 +56,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAddProductToCartDDT -->
-        <test-method signature="testAddProductToCartDDT(java.lang.String)[pri:0, instance:testCases.TC038_addCart_AddProductToCartDDT@1ce24091]" started-at="2025-12-08T14:39:26 IST" name="testAddProductToCartDDT" data-provider="ListOfProducts" finished-at="2025-12-08T14:39:28 IST" duration-ms="2284" status="PASS">
+        <test-method signature="testAddProductToCartDDT(java.lang.String)[pri:0, instance:testCases.TC038_addCart_AddProductToCartDDT@1ce24091]" started-at="2025-12-09T09:03:00 IST" name="testAddProductToCartDDT" data-provider="ListOfProducts" finished-at="2025-12-09T09:03:02 IST" duration-ms="2088" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -67,7 +67,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAddProductToCartDDT -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC038_addCart_AddProductToCartDDT@1ce24091]" started-at="2025-12-08T14:39:28 IST" name="teardown" finished-at="2025-12-08T14:39:28 IST" duration-ms="543" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC038_addCart_AddProductToCartDDT@1ce24091]" started-at="2025-12-09T09:03:02 IST" name="teardown" finished-at="2025-12-09T09:03:04 IST" duration-ms="2250" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

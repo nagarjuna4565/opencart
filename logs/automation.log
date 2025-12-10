@@ -1,30 +1,14 @@
-14:36:45.833 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-14:36:45.943 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-14:36:45.943 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-14:36:46.044 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-14:36:46.044 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-14:36:46.105 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-14:36:46.105 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-14:36:46.167 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-14:36:46.167 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-14:36:46.246 [TestNG-test-Test-1] INFO  testCases.TC038_addCart_AddProductToCartDDT - ******** TC31 is STARTED **************
-14:39:17.983 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-14:39:18.016 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-14:39:19.306 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-14:39:19.309 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-14:39:19.367 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-14:39:19.367 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-14:39:19.447 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-14:39:19.451 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-14:39:19.497 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-14:39:19.501 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-14:39:19.550 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-14:39:19.550 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-14:39:19.616 [TestNG-test-Test-1] INFO  testCases.TC038_addCart_AddProductToCartDDT - ******** TC31 is STARTED **************
-14:39:21.569 [TestNG-test-Test-1] INFO  testCases.TC038_addCart_AddProductToCartDDT - ******** TC31 is PASSED **************
-14:39:21.599 [TestNG-test-Test-1] INFO  testCases.TC038_addCart_AddProductToCartDDT - ******** TC31 is STARTED **************
-14:39:24.005 [TestNG-test-Test-1] INFO  testCases.TC038_addCart_AddProductToCartDDT - ******** TC31 is PASSED **************
-14:39:24.019 [TestNG-test-Test-1] INFO  testCases.TC038_addCart_AddProductToCartDDT - ******** TC31 is STARTED **************
-14:39:26.067 [TestNG-test-Test-1] INFO  testCases.TC038_addCart_AddProductToCartDDT - ******** TC31 is PASSED **************
-14:39:26.077 [TestNG-test-Test-1] INFO  testCases.TC038_addCart_AddProductToCartDDT - ******** TC31 is STARTED **************
-14:39:28.351 [TestNG-test-Test-1] INFO  testCases.TC038_addCart_AddProductToCartDDT - ******** TC31 is PASSED **************
+09:02:54.309 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+09:02:54.351 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+09:02:54.433 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+09:02:54.437 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+09:02:54.494 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+09:02:54.496 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+09:02:54.589 [TestNG-test-Test-1] INFO  testCases.TC038_addCart_AddProductToCartDDT - ******** TC31 is STARTED **************
+09:02:56.649 [TestNG-test-Test-1] INFO  testCases.TC038_addCart_AddProductToCartDDT - ******** TC31 is PASSED **************
+09:02:56.695 [TestNG-test-Test-1] INFO  testCases.TC038_addCart_AddProductToCartDDT - ******** TC31 is STARTED **************
+09:02:58.743 [TestNG-test-Test-1] INFO  testCases.TC038_addCart_AddProductToCartDDT - ******** TC31 is PASSED **************
+09:02:58.750 [TestNG-test-Test-1] INFO  testCases.TC038_addCart_AddProductToCartDDT - ******** TC31 is STARTED **************
+09:03:00.504 [TestNG-test-Test-1] INFO  testCases.TC038_addCart_AddProductToCartDDT - ******** TC31 is PASSED **************
+09:03:00.512 [TestNG-test-Test-1] INFO  testCases.TC038_addCart_AddProductToCartDDT - ******** TC31 is STARTED **************
+09:03:02.592 [TestNG-test-Test-1] INFO  testCases.TC038_addCart_AddProductToCartDDT - ******** TC31 is PASSED **************
